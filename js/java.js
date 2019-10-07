@@ -8,23 +8,28 @@ name = name.toLowerCase();
 switch (name ) { 
     case "yes" :
         alert(" Great Job.. Yes my name is Saja");
-        console.log ("Great Job.. you guessed my name");
+        //console.log ("Great Job.. you guessed my name");
+        alert("Great Job.. you guessed my name");
         break;
     case "y" :
          alert(" Great Job.. Yes my name is Saja");
-         console.log ("Great Job.. you guessed my name");
+         //console.log ("Great Job.. you guessed my name");
+        alert("Great Job.. you guessed my name");
          break;  
     case "no" :
         alert(" It\'s OK.. Actually my name is Saja");
-        console.log ("You could not guess my name");
+       // console.log ("You could not guess my name");
+        alert ("You could not guess my name");
         break;
     case "n" :
         alert(" It\'s OK.. Actually my name is Saja");
-        console.log ("You could not guess my name");
+        //console.log ("You could not guess my name");
+        alert ("You could not guess my name");
         break; 
         default:
         alert(" You don't want to Know my name?");
-        console.log ("Try to know my name");
+        //console.log ("Try to know my name");
+        alert("Try to know my name");
         break;
         
 }
@@ -35,23 +40,28 @@ major = major.toLowerCase();
 switch (major ) { 
     case "yes" :
         alert(" Great Job.. Yes I am a biomedical enginner");
-        console.log ("Great Job.. you guessed my major");
+        //console.log ("Great Job.. you guessed my major");
+        alert("Great Job.. you guessed my major");
         break;
     case "y" :
          alert(" Great Job.. Yes I am a biomedical enginner");
-         console.log ("Great Job.. you guessed my major");
+         //console.log ("Great Job.. you guessed my major");
+        alert("Great Job.. you guessed my major");
          break;  
     case "no" :
         alert(" I'm sure you were about to know it ... My major is biomedical engineering");
-        console.log ("You could not guess my major");
+        //console.log ("You could not guess my major");
+        alert("You could not guess my major");
         break;
     case "n" :
         alert(" I'm sure you were about to know it ... My major is biomedical engineering");
-        console.log ("You could not guess my major");
+        //console.log ("You could not guess my major");
+        alert("You could not guess my major");
         break; 
     default:
         alert(" You don't want to Know my major? my major is biomedical engineering");
-        console.log ("Try to know my major");
+        //console.log ("Try to know my major");
+        alert("Try to know my major");
          break;
 }
 
@@ -60,23 +70,28 @@ year = year.toLowerCase();
 switch (year ) { 
     case "yes" :
         alert(" Great Job.. Yes I've graduated in 2018");
-        console.log ("Great Job.. you guessed my graduation year");
+        //console.log ("Great Job.. you guessed my graduation year");
+        alert("Great Job.. you guessed my graduation year");
         break;
     case "y" :
          alert(" Great Job.. Yes I've graduated in 2018");
-         console.log ("Great Job.. you guessed my graduation year");
+         //console.log ("Great Job.. you guessed my graduation year");
+        alert("Great Job.. you guessed my graduation year");
          break;  
     case "no" :
         alert(" You are bad in math.. I've graduated in 2018 ");
-        console.log ("You could not guess my graduation year");
+        //console.log ("You could not guess my graduation year");
+        alert("You could not guess my graduation year");
         break;
     case "n" :
         alert(" You are bad in math.. I've graduated in 2018");
-        console.log ("You could not guess my graduation year");
+        //console.log ("You could not guess my graduation year");
+        alert("You could not guess my graduation year");
         break; 
     default:
         alert(" You don't want to Know my graduation year? ");
-        console.log ("Try to know my graduation year");
+        //console.log ("Try to know my graduation year");
+        alert("Try to know my graduation year");
         break;
 }
 
@@ -85,23 +100,28 @@ hobby = hobby.toLowerCase();
 switch (hobby ) { 
     case "yes" :
         alert(" Great Job.. my hobby is reading");
-        console.log ("Great Job.. you guessed my hobby");
+        //console.log ("Great Job.. you guessed my hobby");
+        alert("Great Job.. you guessed my hobby");
         break;
     case "y" :
          alert(" Great Job.. my hobby is reading");
-         console.log ("Great Job.. you guessed my hobby");
+         //console.log ("Great Job.. you guessed my hobby");
+        alert("Great Job.. you guessed my hobby");
          break;  
     case "no" :
         alert(" Really! My hobby is reading .. It's so easy");
-        console.log ("You could not guess my hobby");
+        //console.log ("You could not guess my hobby");
+        alert("You could not guess my hobby");
         break;
     case "n" :
         alert(" Really! My hobby is reading .. It's so easy");
-        console.log ("You could not guess my hobby");
+        //console.log ("You could not guess my hobby");
+        alert("You could not guess my hobby");
         break;
         default:
                 alert(" You don't want to Know my hobby? ");
-                console.log ("Try to know my hobby");
+                //console.log ("Try to know my hobby");
+        alert("Try to know my hobby");
                 break; 
 }
 
@@ -110,23 +130,28 @@ color = color.toLowerCase();
 switch (color ) { 
     case "yes" :
         alert(" Great Job.. Yes my faviort color is blue");
-        console.log ("Great Job.. you guessed my faviort color");
+       // console.log ("Great Job.. you guessed my faviort color");
+        alert("Great Job.. you guessed my faviort color");
         break;
     case "y" :
          alert(" Great Job.. Yes my faviort color is blue");
-         console.log ("Great Job.. you guessed my faviort color");
+         //console.log ("Great Job.. you guessed my faviort color");
+        alert("Great Job.. you guessed my faviort color");
          break;  
     case "no" :
         alert(" You don't Know the color of the sky! My faviort color is blue");
-        console.log ("You could not guess my faviort color");
+        //console.log ("You could not guess my faviort color");
+        alert ("You could not guess my faviort color");
         break;
     case "n" :
         alert(" You don't Know the color of the sky! My faviort color is blue");
-        console.log ("You could not guess my faviort color");
+        //console.log ("You could not guess my faviort color");
+        alert ("You could not guess my faviort color");
         break; 
         default:
                 alert(" You don't want to Know my faviort color? ");
-                console.log ("Try to know my faviort color");
+              //  console.log ("Try to know my faviort color");
+        alert("Try to know my faviort color");
                 break;
 }
 
