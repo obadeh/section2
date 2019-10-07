@@ -1,0 +1,15 @@
+div.box {
+    height: 300px;
+    width: 300px;
+    background-color: brown;}
+    p {
+        color: darkolivegreen;
+    height: 75%;
+    width: 75%;
+    background-color: gold;}
+    h2 {
+        text-align: center;
+         color:darkred; 
+         border-style: dashed; 
+    }
+    
