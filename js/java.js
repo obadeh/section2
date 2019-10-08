@@ -3,6 +3,11 @@
 var user = prompt(" Can You Please Tell Us Your Name ")
 alert("Welcome You Here " + user + " I wish You Enjoy Knowing Me..")
 
+
+    var counter = 0;
+/////////////////////////////////////////The 5 Questions//////////////////////////////////////////
+
+
 var questions
     = [
 
@@ -50,25 +55,92 @@ for (var i=0; i<5; i++){
     var negativeReply = exactArray[2];
     var defultReply = exactArray[3];
 var name = prompt(promptQuestion);
-    promptQuestion = promptQuestion.toLowerCase();
+   name = name.toLowerCase();
 switch (name) {
     case "yes":
     case "y":
         alert(posetiveReply);
+        counter = counter +1;
+        console.log(name);
+        
         break;
 
 
     case "no":
     case "n":
         alert(negativeReply);
+        console.log(name);
         break;
 
 
     default:
         alert(defultReply);
+        console.log(name);
         break;
 
-}
+} }
 
+
+
+////////////////////////////////////////////the first question////////////////////////////////////////
+
+
+
+for (var age = 0; age <4; age++){
+
+    var old = prompt("Guess how old am I... You have 4 trials")
+    if (old ==24){
+        alert("Yes exactly!");
+        counter = counter +1;
+        console.log(old);
+        break;
+    } else if (old >24) {
+        alert ("too high");
+        console.log(old);
+    } else if ( old< 24){
+        alert(" too low");
+        console.log(old);
+    }}
+    
+alert ("I am 24 years old");
+
+
+
+//////////////////////////////////////////the second question//////////////////////////////////////////
+
+
+
+
+var game = ['cat', 'dog', 'hours', 'eagle', 'eleghant', 'dolphin'];
+
+for (var times = 0; times <5; times++) {
+    var play = prompt("I love 6 different animals.. Can you guess one of them?");
+    switch (play) {
+        case game[0]:
+        case game[1]:
+        case game[2]:
+        case game[3]:
+        case game[4]:
+        case game[5]:
+        
+            alert(" You are right.. My fav animals are: Cat, Dog, Hours, Eagle, Eleghant, Dolphin");
+            //counter = counter + 1;
+            console.log(play);
+        times = 5;
+            break;
+
+        default:
+               
+            alert("You are wrong .. Try it again ")
+            console.log(play);
+            break;
+    }
 }
+alert(" My fav animals are: Cat, Dog, Hours, Eagle, Eleghant, Dolphin ");
+
+
+
+
+ alert ( "You got " +counter+ " points after completing the quiz");
+
 alert("Thanks for being here " + user);
