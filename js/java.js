@@ -47,6 +47,7 @@ var questions
 
     ]
 
+    function aboutMe(){ 
 
 for (var i = 0; i < 5; i++) {
     var exactArray = questions[i];
@@ -81,11 +82,14 @@ for (var i = 0; i < 5; i++) {
     }
 }
 
+    }
 
+
+    aboutMe();
 
 ////////////////////////////////////////////the first question////////////////////////////////////////
 
-
+function myAge(){
 
 for (var age = 0; age < 4; age++) {
 
@@ -106,12 +110,13 @@ for (var age = 0; age < 4; age++) {
 
 alert("I am 24 years old");
 
+}
 
-
+myAge();
 //////////////////////////////////////////the second question//////////////////////////////////////////
 
 
-
+function gussGame(){
 
 var game = ['cat', 'dog', 'hours', 'eagle', 'eleghant', 'dolphin'];
 
@@ -141,7 +146,8 @@ for (var times = 0; times < 5; times++) {
 alert(" My fav animals are: Cat, Dog, Hours, Eagle, Eleghant, Dolphin ");
 
 
-
+}
+gussGame();
 
 alert("You got " + counter + " points after completing the quiz");
 

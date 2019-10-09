@@ -3,13 +3,16 @@ div.box {
     width: 300px;
     background-color: brown;}
     p {
-        color: darkolivegreen;
+        color:white;
     height: 75%;
     width: 75%;
-    background-color: gold;}
+    background-color: rgb(111, 0, 255);}
     h2 {
         text-align: center;
          color:darkred; 
          border-style: dashed; 
     }
-    
+
+    h1{
+        border-style: inherit; 
+    }
